@@ -1,13 +1,13 @@
-package pl.wezpomoz.spolecznalodowka.response;
+package pl.wezpomoz.spolecznalodowka.model;
 
 import pl.wezpomoz.spolecznalodowka.model.LodowkaDTO;
 
 import java.util.List;
 
-public class LodowkaResponse {
+public class LodowkaList {
     private List<LodowkaDTO> lodowki;
 
-    public LodowkaResponse(List<LodowkaDTO> lodowki) {
+    public LodowkaList(List<LodowkaDTO> lodowki) {
         this.lodowki = lodowki;
     }
 
