@@ -18,7 +18,7 @@ public class LodowkaController {
     private final LodowkaService lodowkaService;
 
     @GetMapping
-    public List<LodowkaDTO> getLodowki() {
-        return lodowkaService.getAll();
+    public LodowkaResponse getLodowki() {
+        return new LodowkaResponse(lodowkaService.getAll());
     }
 }
