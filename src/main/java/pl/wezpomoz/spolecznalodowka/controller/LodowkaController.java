@@ -5,6 +5,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import pl.wezpomoz.spolecznalodowka.model.LodowkaDTO;
+import pl.wezpomoz.spolecznalodowka.response.LodowkaResponse;
 import pl.wezpomoz.spolecznalodowka.service.LodowkaService;
 
 import java.util.List;
