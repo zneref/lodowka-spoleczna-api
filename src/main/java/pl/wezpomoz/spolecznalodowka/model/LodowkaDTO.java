@@ -10,13 +10,13 @@ import lombok.Setter;
 @Getter
 @Setter
 public class LodowkaDTO {
-
+    private String id;
     private double latitude;
     private double longitude;
     private String title;
     private String snippet;
-    private boolean isOur;
-    private String openHours;
-    private String imageName;
+    private boolean our;
+    private String hours;
+    private boolean image;
 
 }

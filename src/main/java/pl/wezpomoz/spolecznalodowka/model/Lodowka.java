@@ -14,16 +14,16 @@ import org.springframework.data.mongodb.core.mapping.Document;
 public class Lodowka {
 
     @Id
-    private ObjectId _id;
+    private ObjectId id;
     private double latitude;
     private double longitude;
     private String title;
     private String snippet;
-    private boolean isOur;
-    private String openHours;
-    private String imageName;
+    private boolean our;
+    private String hours;
+    private boolean image;
 
-    public String get_id() {
-        return _id.toHexString();
+    public String getId() {
+        return id.toHexString();
     }
 }
